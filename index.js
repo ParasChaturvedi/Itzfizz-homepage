@@ -58,7 +58,7 @@ gsap.to(".mobile-page-2", {
   scrollTrigger: {
     trigger: ".mobile-page-2",
     scroller: "body",
-    start: "top 10%",
+    start: "top 0%",
     scrub: true,
     // pin:'.page-1',
     end: "+=100px",
