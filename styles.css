@@ -1,0 +1,965 @@
+@font-face {
+  font-family: "Hempa Sans";
+  src: url("https://itzfizzdigital.b-cdn.net/HempaSans-Light.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --card-height: 40vw;
+  --card-margin: 4vw;
+  --card-top-offset: 1em;
+  --numcards: 4;
+  --outline-width: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff355;
+  border: 2px solid #f49339;
+  border-radius: 50%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Hempa Sans";
+  overflow-x: hidden !important;
+}
+.spacer {
+  background-color: #fff355;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+/* Section 1 */
+
+.img-10x {
+  position: absolute;
+  width: 100px;
+  margin-left: -22px;
+  margin-top: -14px;
+}
+.curve-arrow {
+  position: absolute;
+  width: 200px;
+  margin-top: -52px;
+  margin-left: 65px;
+}
+
+.Digital-underline {
+  position: absolute;
+  width: 650px;
+  margin-top: 55px;
+  margin-left: -600px;
+}
+.homepagesection1 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/grid.png");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  > h1 {
+    width: 55%;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  > button {
+    background-color: #fff355;
+    padding-inline: 50px;
+    padding-block: 10px;
+    border-radius: 1000px;
+    border: none;
+    filter: drop-shadow(4px 4px black);
+  }
+}
+.video-heroSection {
+  top: 0;
+  margin-left: -0.31vw;
+  width: 35.5vw;
+  height: 50vh;
+  object-fit: contain;
+  border: 2px solid transparent;
+}
+
+.herophoto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mix-blend-mode: multiply;
+  width: 75vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+  position: relative;
+}
+
+.herobackdrop1 {
+  position: absolute;
+  left: 0;
+  top: 30vh;
+  height: 60vh;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+}
+.herobackdrop2-1 {
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  bottom: 0;
+  height: 60vh;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+}
+.growth {
+  position: relative;
+  background-color: #fff355;
+  border-radius: 1000px;
+  padding: 0px 0px 0px 10px;
+  margin-right: 3px;
+  border: 2px solid black;
+  filter: drop-shadow(4px 4px black);
+  margin-right: 10px;
+
+  > img {
+    position: absolute;
+    width: 100px;
+  }
+}
+
+/* <!-- Section 2 --> */
+
+.homepagesection2,
+.section-3 {
+  position: relative;
+  width: 100vw;
+}
+
+.homepagesection2 .page-1 {
+  width: 100vw;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  background-color: #fff355;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepagesection2 .page-2,
+.section-3 .mobile-page-2 {
+  position: sticky;
+  overflow: hidden;
+  width: 100vw;
+  height: 120vh;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-color: white;
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/grid.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100px);
+}
+.page1waves {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+.video-container {
+  max-height: 50vh;
+  margin-top: -30vh;
+  display: flex;
+  justify-content: center;
+}
+.vid {
+  background-color: white;
+  width: 50%;
+  height: fit-content;
+  border-radius: 30px;
+}
+.homepagesection2 .background-circle {
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002606.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-3 .mobile-background-circle {
+  width: 90vw;
+  height: 90vh;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002606.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.homepagesection2 .animation-cards,
+.section-3 .mobile-animation-cards {
+  padding-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateX(150vw);
+}
+.homepagesection2 .cards,
+.section-3 .cards {
+  width: 300px;
+  height: 455px;
+  margin: 0 15px 0 15px;
+  border-radius: 15px;
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002609.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.service-vid {
+  width: 250px;
+  margin-top: 5vh;
+  margin-left: 1.5vw;
+  object-fit: cover;
+}
+.service-vidM {
+  width: 57.5vw;
+  margin-top: 8vh;
+  margin-left: 7.5vw;
+  object-fit: cover;
+}
+.cards-heading{
+  font-size: clamp(10px , 24px, 400px);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.51vw;
+}
+.cards-para{
+  font-size: clamp(10px , 14px, 300px);
+  font-weight: 400;
+  text-align: center;
+  width: 260px;
+}
+
+/* section-3 */
+
+.section-3 {
+  visibility: collapse;
+  display: none;
+}
+
+/* <!-- Section 4 --> */
+
+.homepagesection4 {
+  contain: paint;
+  text-align: center;
+  background-color: #fff355;
+  position: relative;
+  padding-bottom: 200px;
+  padding-top: 50px;
+
+  > h2 {
+    position: relative;
+    padding-block: 50px;
+    z-index: 2;
+    color: #000;
+    font-family: "Hempa Sans";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+}
+.black-rings {
+  width: 232px;
+  top: 10px;
+  left: 45%;
+  z-index: -9;
+  position: absolute;
+}
+.experienceImg {
+  position: relative;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+
+  > img {
+    width: 311px;
+    top: -74px;
+    left: 191px;
+    z-index: -9;
+    position: absolute;
+  }
+}
+.web {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+}
+.section3backdrop1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+}
+.section3backdrop2 {
+  position: absolute;
+  top: 220px;
+  right: 0;
+  width: 220px;
+  transition: all cubic-bezier(0.19, 1, 0.2, 1) 4000ms;
+}
+.companytilescontainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.cursorImage {
+  filter: drop-shadow(4px 4px black);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  width: 625px;
+  border-radius: 42px;
+}
+.tiles {
+  cursor: none;
+  opacity: 0.3;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+  height: 150px;
+  width: 35vw;
+
+  > h5 {
+    z-index: 2;
+    font-size: 16px;
+  }
+  > p {
+    z-index: 2;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+.tiles:nth-last-child(1) {
+  border-bottom: none;
+}
+.activetile {
+  opacity: 1;
+}
+
+.cursor {
+  --size: 8px;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  transform: translate(-50%, -50%) rotate(8deg);
+  pointer-events: none;
+}
+.cursor.cursor-shadow {
+  transition: top 0.2s, left 0.2s, width 0.2s, height 0.2s,
+    background-color 0.2s, border-color 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.cursor.cursor-dot.activetile-1,
+.cursor.cursor-dot.activetile-2,
+.cursor.cursor-dot.activetile-3,
+.cursor.cursor-dot.activetile-4,
+.cursor.cursor-dot.activetile-5,
+.cursor.cursor-dot.activetile-6,
+.cursor.cursor-dot.activetile-7,
+.cursor.cursor-dot.activetile-8,
+.cursor.cursor-dot.activetile-9,
+.cursor.cursor-dot.activetile-10,
+.cursor.cursor-dot.activetile-11,
+.cursor.cursor-dot.activetile-12,
+.cursor.cursor-dot.activetile-13,
+.cursor.cursor-dot.activetile-14,
+.cursor.cursor-dot.activetile-15,
+cursor.cursor-dot.activetile-16 {
+  opacity: 0;
+}
+.cursor-shadow.activetile-1,
+.cursor-shadow.activetile-2,
+.cursor-shadow.activetile-3,
+.cursor-shadow.activetile-4,
+.cursor-shadow.activetile-5,
+.cursor-shadow.activetile-6,
+.cursor-shadow.activetile-7,
+.cursor-shadow.activetile-8,
+.cursor-shadow.activetile-9,
+.cursor-shadow.activetile-10,
+.cursor-shadow.activetile-11,
+.cursor-shadow.activetile-12,
+.cursor-shadow.activetile-13,
+.cursor-shadow.activetile-14,
+.cursor-shadow.activetile-15,
+.cursor-shadow.activetile-16 {
+  --size: 130px;
+  border-width: 0;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 1;
+}
+.cursor-shadow.activetile-1 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002825.png");
+}
+.cursor-shadow.activetile-2 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002826.png");
+}
+.cursor-shadow.activetile-3 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002829.png");
+}
+.cursor-shadow.activetile-4 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002830.png");
+}
+.cursor-shadow.activetile-5 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002827.png");
+}
+.cursor-shadow.activetile-6 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002831.png");
+}
+.cursor-shadow.activetile-7 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002833.png");
+}
+.cursor-shadow.activetile-8 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002834.png");
+}
+.cursor-shadow.activetile-9 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002835.png");
+}
+.cursor-shadow.activetile-10 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002828.png");
+}
+.cursor-shadow.activetile-11 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002837.png");
+}
+.cursor-shadow.activetile-12 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002832.png");
+}
+.cursor-shadow.activetile-13 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002838.png");
+}
+.cursor-shadow.activetile-14 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002839.png");
+}
+.cursor-shadow.activetile-15 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002836.png");
+}
+.cursor-shadow.activetile-16 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/Group%201000002840.png");
+}
+
+/* HOMEPAGESECTION 5 */
+
+.homepagesection5 {
+  background-color: #fff355;
+  position: relative;
+  padding-bottom: 100px;
+}
+.homepagesection5-desc {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  transform: rotate(-2deg) translate(-20px, -50px);
+  width: 106vw;
+  height: 115px;
+
+}
+.scrollText {
+  display: flex;
+  animation: scrollText 8s infinite linear;
+  white-space: nowrap;
+  
+}
+.descContainer {
+  white-space: nowrap;
+  display: inline-flex;
+
+
+  > h6 {
+    margin-left: 100px;
+    font-size: 100px;
+    font-weight: 300;
+  }
+}
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.homepagesection5-cards #card_1 {
+  --index: 1;
+  transform: rotate(2deg);
+}
+
+.homepagesection5-cards #card_2 {
+  --index: 2;
+  transform: rotate(-2deg);
+}
+
+.homepagesection5-cards #card_3 {
+  --index: 3;
+  transform: rotate(3deg);
+}
+
+.homepagesection5-cards #card_4 {
+  --index: 4;
+  transform: rotate(-3deg);
+}
+.homepagesection5-cards #card_5 {
+  --index: 5;
+  transform: rotate(2deg);
+}
+
+.homepagesection5-cards #card_6 {
+  --index: 6;
+  transform: rotate(-2deg);
+}
+
+.homepagesection5-cards #card_7 {
+  --index: 7;
+  transform: rotate(3deg);
+}
+
+.homepagesection5-cards #card_8 {
+  --index: 8;
+  transform: rotate(-3deg);
+}
+.homepagesection5-cards #card_9 {
+  --index: 9;
+  transform: rotate(2deg);
+}
+
+.homepagesection5-cards #card_10 {
+  --index: 10;
+  transform: rotate(-2deg);
+}
+
+.homepagesection5-cards #card_11 {
+  --index: 11;
+  transform: rotate(3deg);
+}
+.homepagesection5-cards #card_12 {
+  --index: 10;
+  transform: rotate(-2deg);
+}
+.homepagesection5-cards #card_13 {
+  --index: 11;
+  transform: rotate(3deg);
+}
+.homepagesection5-cards .card {
+  position: sticky;
+  top: 100px;
+  padding-top: calc(var(--index) * var(--card-top-offset));
+}
+.homepagesection5-cards {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+}
+.homepagesection5-cards #cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--numcards), var(--card-height));
+  gap: var(--card-margin);
+}
+
+.homepagesection5-cards .card__content {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/paper.png");
+  backdrop-filter: blur(6px);
+  border: 2px solid black;
+  border-radius: 1em;
+}
+.homepagesection5-cards .card__content > figure {
+  padding: 25px;
+}
+.homepagesection5-cards .card__content > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* HOMEPAGESECTION 6 */
+
+.homepagesection6 {
+  background-image: url("https://itzfizzdigital.b-cdn.net/homepage%20assets/paper.png");
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 250px;
+  position: relative;
+  contain: paint;
+}
+.s6bd2 {
+  position: absolute;
+  right: 0;
+  top: -40px;
+  width: 200px;
+}
+.s6bd3 {
+  position: absolute;
+  left: 0;
+  bottom: 400px;
+  width: 300px;
+}
+.homepagesection6 .pinned-div {
+  top: 0;
+  position: sticky;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepagesection6 .pinned-content {
+  transition: all 0.4s ease-out;
+  > p {
+    position: relative;
+    text-align: center;
+    width: 40vw;
+    font-size: 50px;
+  }
+}
+.section6-text {
+  position: relative;
+}
+.section6backdrop {
+  position: absolute;
+  width: 500px;
+  top: -70px;
+  left: -77px;
+}
+.homepagesection6 .floatingcontent {
+  margin-top: 10vh;
+  width: 60vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.homepagesection6 .card {
+  width: 350px;
+  height: 400px;
+}
+.homepagesection6 .card:nth-child(odd) {
+  transform: rotate(-20deg) translateX(-25vw);
+}
+.homepagesection6 .card:nth-child(even) {
+  transform: rotate(20deg) translateX(25vw);
+}
+
+@media screen and (min-device-width: 250px) and (max-device-width: 800px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  /* Section 1 */
+
+
+  .homepagesection1 {
+    width: 100%;
+    height: 100vh;
+    > h1 {
+      width: 100%;
+      font-size: 24px;
+      line-height: 1.8em;
+      padding: 0vw 1vw 0vw 2vw;
+    }
+  }
+  .herophoto {
+    width: 80%;
+    font-size: 20px;
+    height: fit-content;
+  }
+  .video-heroSection {
+    height: max-content;
+    width: 80vw;
+    padding: 5vh 0;
+    z-index: 99;
+  }
+  .herobackdrop1 {
+    top: 45vh;
+    height: 30vh;
+  }
+  .herobackdrop2-1 {
+    bottom: 0;
+    height: 40vh;
+  }
+  .img-10x {
+    visibility: hidden;
+    display: none;
+  }
+
+  .Digital-underline {
+    visibility: hidden;
+    display: none;
+  }
+
+  .curve-arrow {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  /* Section 2 */
+
+  .homepagesection2 {
+    visibility: collapse !important;
+    display: none;
+  }
+
+  .cards-heading{
+    font-size: clamp(10px , 16px, 400px);
+    font-weight: 600;
+    text-align: center;
+    margin-top: -2vh;
+  }
+  .cards-para{
+    font-size: clamp(10px , 12px, 200px);
+    font-weight: 400;
+    text-align: center;
+    width: 200px;
+  }
+  /* section-3 */
+
+  .section-3 {
+    visibility: visible;
+    display: block;
+  }
+  .mobile-page-2 {
+    border: 2px groove #f49339;
+  }
+  .section-3 .cards {
+    width: 70vw;
+    height: 60vh;
+  }
+  .section-3 .mobile-animation-cards {
+    padding-top: 0px;
+    justify-content: center;
+  }
+  .section-3 .mobile-animation-cards {
+    transform: translateX(155vw);
+  }
+
+  /* ========================= */
+  /* Section 4 */
+
+  .homepagesection4 {
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 10px;
+
+    > h1 {
+      font-size: 60px;
+      font-weight: 400;
+      padding-block: 25px;
+      z-index: 99;
+    }
+  }
+  .companytilescontainer {
+    align-items: center;
+    flex-direction: column;
+  }
+  .cursorImage {
+    width: 90vw;
+  }
+  .tiles {
+    gap: 20px;
+    width: 85vw;
+    height: 100px;
+
+    > h1 {
+      font-size: 12px;
+      opacity: 1;
+    }
+    > p {
+      font-size: 10px;
+      opacity: 1;
+    }
+  }
+  .section3backdrop1 {
+    width: 50px;
+    z-index: -1;
+  }
+  .section3backdrop2 {
+    width: 80px;
+    z-index: -1;
+  }
+  .black-rings {
+    width: 100px;
+    display: none;
+  }
+  .experienceImg img {
+    width: 160px;
+    z-index: -1;
+    margin-top: -6vh;
+  }
+  .cursor-shadow.activetile-1,
+  .cursor-shadow.activetile-2,
+  .cursor-shadow.activetile-3,
+  .cursor-shadow.activetile-4,
+  .cursor-shadow.activetile-5,
+  .cursor-shadow.activetile-6,
+  .cursor-shadow.activetile-7,
+  .cursor-shadow.activetile-8,
+  .cursor-shadow.activetile-9,
+  .cursor-shadow.activetile-10,
+  .cursor-shadow.activetile-11,
+  .cursor-shadow.activetile-12,
+  .cursor-shadow.activetile-13,
+  .cursor-shadow.activetile-14,
+  .cursor-shadow.activetile-15,
+  .cursor-shadow.activetile-16 {
+    --size: 100px;
+  }
+  /* section 5 */
+
+  .homepagesection5 {
+    width: 100vw;
+
+    padding-bottom: 8px;
+
+  }
+  .homepagesection5-desc {
+    width: 106vw;
+    height: 60px;
+
+  }
+  .descContainer {
+    > h1 {
+      font-size: 50px;
+      margin-left: 50px;
+    }
+  }
+  .homepagesection5-cards {
+    width: 90vw;
+  }
+
+  .homepagesection5-cards .card__content > figure {
+    padding: 10px;
+  }
+
+  /* Section 6 */
+
+  .homepagesection6 {
+    width: 100%;
+    padding-bottom: 50px;
+    contain: paint;
+  }
+  .s6bd2 {
+    width: 50px;
+  }
+  .s6bd3 {
+    width: 70px;
+  }
+  .section6backdrop {
+    width: 200px;
+  }
+  .homepagesection6 .pinned-content {
+    > p {
+      width: 40vw;
+      font-size: 30px;
+    }
+  }
+  .homepagesection6 .card {
+    height: 20vh;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  .homepagesection6 .floatingcontent {
+    gap: 50px;
+
+  }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1300px) {
+  .Digital-underline {
+    visibility: hidden;
+    display: none;
+  }
+  .herophoto {
+    width: 80%;
+    font-size: 20px;
+    height: fit-content;
+  }
+  .video-heroSection {
+    height: max-content;
+    width: 50vw;
+    padding: 5vh 0;
+    z-index: 99;
+  }
+  .black-rings {
+    width: 100px;
+    display: none;
+  }
+  .experienceImg img {
+    width: 160px;
+    z-index: -1;
+    margin-top: -6vh;
+  }
+  .homepagesection5-desc {
+    width: 106vw;
+  }
+  .descContainer {
+    > h1 {
+      font-size: 50px;
+      margin-left: 50px;
+    }
+  }
+}
