@@ -805,7 +805,7 @@ cursor.cursor-dot.activetile-16 {
     padding-bottom: 100px;
     padding-top: 10px;
 
-    > h1 {
+    > h2 {
       font-size: 60px;
       font-weight: 400;
       padding-block: 25px;
@@ -824,7 +824,7 @@ cursor.cursor-dot.activetile-16 {
     width: 85vw;
     height: 100px;
 
-    > h1 {
+    > h5 {
       font-size: 12px;
       opacity: 1;
     }
@@ -882,7 +882,7 @@ cursor.cursor-dot.activetile-16 {
 
   }
   .descContainer {
-    > h1 {
+    > h6 {
       font-size: 50px;
       margin-left: 50px;
     }
@@ -957,7 +957,7 @@ cursor.cursor-dot.activetile-16 {
     width: 106vw;
   }
   .descContainer {
-    > h1 {
+    > h6 {
       font-size: 50px;
       margin-left: 50px;
     }
